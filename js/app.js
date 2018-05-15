@@ -7,6 +7,8 @@ completeIcon = '<i class="fas fa-check-circle"></i>';
 // Create Submit Button and function
 document.getElementById('submit').addEventListener('click', function(e) {
   e.preventDefault();
+  // document.getElementById('submit').addEventListener('keyup', function(e) {
+  //   e.preventDefault();
   let day = document.getElementById('day').value;
   let time = document.getElementById('time').value;
   let todo = document.getElementById('comment').value;

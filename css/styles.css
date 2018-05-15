@@ -7,23 +7,27 @@ font-family: 'Gloria Hallelujah', cursive;
 body {}
 
 .body-container {
+  margin-top: 120px;
   position: relative;
   overflow: hidden;
   letter-spacing: 2px;
 }
 
 .body-container h1 {
-  margin-top: 0px;
+  margin-top: -120px;
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 30px;
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 1;
   text-align: center;
   font-size: 5em;
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: 900;
   background-color: rgba(44, 121, 244, 1);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .form-control {
@@ -33,7 +37,7 @@ body {}
 .body-container img {
   position: absolute;
   left: 0;
-  top: 105px;
+  top: px;
   width: 100%;
   height: auto;
   opacity: 1;
@@ -79,6 +83,7 @@ body {}
   float: right;
   background-color: rgba(231, 232, 234, 0.7);
   letter-spacing: 2px;
+  border-radius: 5px;
 }
 
 /*    CSS for Delete and Complete Button on Weekly List Items        */
@@ -184,6 +189,7 @@ body {}
   text-align: center;
   justify-content: center;
   background-color: rgba(231, 232, 234, 0.7);
+  border-radius: 5px;
 }
 
 .comp-ul {
