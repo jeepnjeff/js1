@@ -6,13 +6,22 @@ font-family: 'Pacifico', cursive;
 font-family: 'Gloria Hallelujah', cursive;
 body {}
 
+  .container-fluid {
+      width: 100%;
+      padding-right: 0px;
+      padding-left: 0px;
+      /* margin-right: auto;
+      margin-left: auto; */
+  }
+
 .body-container {
   margin-top: 120px;
   position: relative;
   overflow: hidden;
   letter-spacing: 2px;
-  margin-right: -60px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px 0px 0px 0px;
   z-index: 2;
 }
 
@@ -61,17 +70,22 @@ body {}
   width: 100%;
   height: auto;
   opacity: 1;
-  margin-top: -28px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .section-container {
   background-color: rgba(0, 0, 0, .2);
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 105%;
 }
 
 .ul-box {
   width: 100%;
   justify-content: center;
-  padding: 0px 75px 0px 75px;
+  padding: 0px 100px 0px 75px;
+  margin: 0px -30px 0px 0px;
 }
 
 .button-box {
@@ -192,6 +206,7 @@ body {}
   justify-content: center;
   opacity: 0.8;
   padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .form-group {
@@ -243,7 +258,7 @@ body {}
   list-style: none;
 }
 
-.footer-box {
+.footer-box .row{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100&0+0,0.7+1,0.7+1,1+28,1+100 */
   background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(124, 184, 231, 0.7) 1%, rgba(98, 158, 210, 1) 28%, rgba(30, 87, 153, 1) 100%);
   /* FF3.6-15 */
@@ -254,9 +269,10 @@ body {}
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799', GradientType=0);
   /* IE6-9 */
   height: 75px;
-  width: 105%;
+  width: 100%;
   margin: auto;
-  margin-top:-3px;
+  margin:-3px 0px 0px 0px;
+  /* padding: 0px 0px 0px 0px; */
 }
 
 .footer-text {
@@ -270,6 +286,8 @@ body {}
   Height: 75px;
   padding: 0px 0px 4px 0px;
   margin: 0px 0px 0px 0px;
+}
+
 }
 
 @media (max-width: 768px) {
