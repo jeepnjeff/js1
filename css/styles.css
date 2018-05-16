@@ -19,6 +19,7 @@ body {}
 .header {
   margin: -141px 0px 0px 0px;
   height: 142px;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 17px;
   position: fixed;
@@ -254,7 +255,7 @@ body {}
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799', GradientType=0);
   /* IE6-9 */
   height: 75px;
-  width: 105%;
+  width: 100%;
   margin: auto;
   margin-top:-3px;
 }
