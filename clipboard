@@ -1,0 +1,16 @@
+.footer-box {
+  background-color: rgba(71, 144, 255, 1);
+  height: 75px;
+  width: 102%;
+  margin-left: -15px;
+}
+
+.footer-text {
+font-family: 'Gloria Hallelujah', cursive;
+margin: auto;
+padding: 10px 0px 0px 0px;
+}
+.footer-img {
+  Height: 75px;
+  padding:0px 0px 13px 0px;
+}
