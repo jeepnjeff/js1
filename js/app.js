@@ -4,6 +4,11 @@
 deleteIcon = '<i class="fas fa-trash-alt"></i>';
 completeIcon = '<i class="fas fa-check-circle"></i>';
 
+document.getElementById('comment').addEventListener('keyup', function() {
+  if (event.keyCode === 13)
+  document.getElementById('submit').click();
+})
+
 // Create Submit Button and function
 document.getElementById('submit').addEventListener('click', function(e) {
   e.preventDefault();
